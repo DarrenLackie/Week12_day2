@@ -9,7 +9,7 @@ public class Customer implements ITransaction {
 
     public Customer(int wallet) {
         this.wallet = wallet;
-        this.ownedCars = new ArrayList<Car>();
+        this.ownedCars = new ArrayList<>();
     }
 
     public int getWallet() {

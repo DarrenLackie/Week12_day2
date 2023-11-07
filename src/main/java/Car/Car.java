@@ -41,7 +41,7 @@ public class Car {
     }
 
     public int getPrice() {
-        return price;
+        return price - priceWithDamage();
     }
 
     public Damage getDamage(){
